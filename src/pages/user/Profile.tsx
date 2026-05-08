@@ -12,8 +12,8 @@ import {
   Lock,
   Smartphone
 } from 'lucide-react';
-import Card from '../components/Card';
-import { cn } from '../lib/utils';
+import Card from '../../components/Card';
+import { cn } from '../../lib/utils';
 
 export default function UserProfile() {
   return (

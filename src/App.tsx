@@ -12,20 +12,20 @@ import Sidebar from './components/Sidebar';
 import Navbar from './components/Navbar';
 
 // Pages
-import AdminDashboard from './pages/AdminDashboard';
-import SuperAdminDashboard from './pages/SuperAdminDashboard';
-import Monitoring from './pages/Monitoring';
-import Attendance from './pages/Attendance';
-import Alerts from './pages/Alerts';
-import UserManagement from './pages/UserManagement';
+import AdminDashboard from './pages/admin/Dashboard';
+import SuperAdminDashboard from './pages/superadmin/Dashboard';
+import Monitoring from './pages/admin/Monitoring';
+import Attendance from './pages/admin/Attendance';
+import Alerts from './pages/admin/Alerts';
+import UserManagement from './pages/admin/UserManagement';
 import Settings from './pages/Settings';
 import Login from './pages/Login';
-import AdminsManagement from './pages/AdminsManagement';
-import GlobalAnalytics from './pages/GlobalAnalytics';
-import UserDashboard from './pages/UserDashboard';
-import MyAttendance from './pages/MyAttendance';
-import UserProfile from './pages/UserProfile';
-import UserNotifications from './pages/UserNotifications';
+import AdminsManagement from './pages/superadmin/AdminsManagement';
+import GlobalAnalytics from './pages/superadmin/GlobalAnalytics';
+import UserDashboard from './pages/user/Dashboard';
+import MyAttendance from './pages/user/Attendance';
+import UserProfile from './pages/user/Profile';
+import UserNotifications from './pages/user/Notifications';
 
 const Layout = ({ children, userRole, onLogout, onRoleChange }: { 
   children: ReactNode, 

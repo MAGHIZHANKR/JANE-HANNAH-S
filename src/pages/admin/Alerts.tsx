@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { ShieldAlert, MapPin, Clock, Eye, Trash2, CheckCircle, ExternalLink } from 'lucide-react';
-import Card from '../components/Card';
-import { cn } from '../lib/utils';
+import Card from '../../components/Card';
+import { cn } from '../../lib/utils';
 
 interface Alert {
   id: string;

@@ -1,8 +1,8 @@
 import { useState, ComponentType } from 'react';
 import { UserPlus, Search, Edit2, Trash2, ShieldCheck, Mail, Phone, Calendar, Upload, X } from 'lucide-react';
 import { motion } from 'motion/react';
-import Card from '../components/Card';
-import { cn } from '../lib/utils';
+import Card from '../../components/Card';
+import { cn } from '../../lib/utils';
 
 export default function UserManagement() {
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);

@@ -4,8 +4,8 @@ import {
   BarChart, Bar, Cell, PieChart, Pie
 } from 'recharts';
 import { Activity, Shield, Users, Server, AlertTriangle, TrendingUp } from 'lucide-react';
-import Card from '../components/Card';
-import { cn } from '../lib/utils';
+import Card from '../../components/Card';
+import { cn } from '../../lib/utils';
 
 const DATA_TRAFFIC = [
   { time: '00:00', load: 45, events: 12 },

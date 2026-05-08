@@ -11,8 +11,8 @@ import {
   Clock,
   AlertCircle
 } from 'lucide-react';
-import Card from '../components/Card';
-import { cn } from '../lib/utils';
+import Card from '../../components/Card';
+import { cn } from '../../lib/utils';
 
 interface AttendanceEntry {
   date: string;

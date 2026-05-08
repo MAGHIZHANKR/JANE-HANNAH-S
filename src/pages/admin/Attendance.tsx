@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Search, Filter, Download, MoreHorizontal, UserCheck, UserX, Clock } from 'lucide-react';
-import Card from '../components/Card';
-import { DUMMY_ATTENDANCE } from '../constants';
-import { cn } from '../lib/utils';
+import Card from '../../components/Card';
+import { DUMMY_ATTENDANCE } from '../../constants';
+import { cn } from '../../lib/utils';
 
 export default function Attendance() {
   const [searchTerm, setSearchTerm] = useState('');

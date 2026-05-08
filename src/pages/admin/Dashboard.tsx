@@ -8,9 +8,9 @@ import {
   Activity
 } from 'lucide-react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import Card, { StatCard } from '../components/Card';
-import { DUMMY_ATTENDANCE } from '../constants';
-import { cn } from '../lib/utils';
+import Card, { StatCard } from '../../components/Card';
+import { DUMMY_ATTENDANCE } from '../../constants';
+import { cn } from '../../lib/utils';
 
 const chartData = [
   { name: '08:00', attendance: 45 },

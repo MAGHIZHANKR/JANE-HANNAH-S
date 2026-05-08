@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Camera, Users, ShieldAlert, Play, Square, Fullscreen, Maximize, Scan, Target, Info } from 'lucide-react';
-import Card from '../components/Card';
-import { cn } from '../lib/utils';
+import Card from '../../components/Card';
+import { cn } from '../../lib/utils';
 
 export default function Monitoring() {
   const [isActive, setIsActive] = useState(false);

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { UserPlus, Shield, Trash2, Mail, ShieldAlert, CheckCircle2, MoreVertical, Search, Filter } from 'lucide-react';
-import Card from '../components/Card';
-import { cn } from '../lib/utils';
+import Card from '../../components/Card';
+import { cn } from '../../lib/utils';
 
 interface AdminUser {
   id: string;
